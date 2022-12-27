@@ -1,0 +1,11 @@
+{% extends 'includes/base.html' %}
+
+{% load static %}
+
+{% block title %} Homepage {% endblock %}
+
+{% block content %} 
+<h1>second homepage</h1>
+<br>
+<a href="{% url 'members:all_members' %}"> <button> second button </button> </a>
+{% endblock %}
